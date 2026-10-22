@@ -12,7 +12,14 @@ def add(a: float, b: float) -> float:
 
 def subtract(a: float, b: float) -> float:
     """Return the difference of two numbers."""
-    return a - b
+    c = a - b
+    if(c > 0):
+        return c
+    return 0
+
+    if(c > 0):
+            return c
+    return 0
 
 
 def multiply(a: float, b: float) -> float:
